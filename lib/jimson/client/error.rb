@@ -14,8 +14,8 @@ module Jimson
       end
 
       class ServerError < StandardError
-        def initialize(code, message)
-          super("Server error #{code}: #{message}")
+        def initialize(code, message, data)
+          super("Server error #{code}: #{message}. Details: #{data.to_json}")
         end
       end
     end
