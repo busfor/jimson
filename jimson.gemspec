@@ -9,9 +9,9 @@ spec = Gem::Specification.new do |s|
   s.has_rdoc = false
   #s.rdoc_options << '-m' << 'README.rdoc' << '-t' << 'Jimson'
   s.extra_rdoc_files = ["README.md"]
-  s.add_dependency("blankslate", "~> 3.1.2")
-  s.add_dependency("rest-client", "~> 1.7.2")
-  s.add_dependency("multi_json", ">= 1.7.6")
+  s.add_dependency("blankslate", ">= 3.1.3")
+  s.add_dependency("rest-client", ">= 1.7.3")
+  s.add_dependency("multi_json", ">= 1.11.2")
   s.add_dependency("rack", ">= 1.4.5")
 
   s.files = %w[
